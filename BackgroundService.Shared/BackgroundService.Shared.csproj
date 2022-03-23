@@ -6,4 +6,8 @@
         <LangVersion>8</LangVersion>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="H.Pipes" Version="2.0.35" />
+    </ItemGroup>
+
 </Project>

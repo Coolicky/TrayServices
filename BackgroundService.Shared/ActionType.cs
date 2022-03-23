@@ -1,7 +1,10 @@
 ﻿namespace BackgroundService.Shared
 {
-public enum ActionType
-{
-    
-}
+    public enum ActionType
+    {
+        Unknown,
+        SendText,
+        ShowTrayIcon,
+        HideTrayIcon
+    }
 }

@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroudService", "BackgroudService\BackgroudService.csproj", "{B9022742-8BC8-4A83-9BEA-712563FD8A38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundService.Shared", "BackgroundService.Shared\BackgroundService.Shared.csproj", "{8D1DD72B-4560-4D27-9179-87CEC7C59DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundService.Wpf", "BackgroundService.Wpf\BackgroundService.Wpf.csproj", "{76F5570A-5C5B-4D15-B475-27FFBFD39F79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{B9022742-8BC8-4A83-9BEA-712563FD8A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9022742-8BC8-4A83-9BEA-712563FD8A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9022742-8BC8-4A83-9BEA-712563FD8A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1DD72B-4560-4D27-9179-87CEC7C59DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1DD72B-4560-4D27-9179-87CEC7C59DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1DD72B-4560-4D27-9179-87CEC7C59DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1DD72B-4560-4D27-9179-87CEC7C59DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F5570A-5C5B-4D15-B475-27FFBFD39F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F5570A-5C5B-4D15-B475-27FFBFD39F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F5570A-5C5B-4D15-B475-27FFBFD39F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F5570A-5C5B-4D15-B475-27FFBFD39F79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

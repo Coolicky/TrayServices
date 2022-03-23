@@ -5,10 +5,16 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <AssemblyName>BackgroundService</AssemblyName>
+        <RootNamespace>BackgroundService</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="System.ServiceProcess.ServiceController" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BackgroundService.Shared\BackgroundService.Shared.csproj" />
     </ItemGroup>
 
 </Project>
